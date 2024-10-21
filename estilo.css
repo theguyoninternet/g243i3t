@@ -5,6 +5,7 @@
     --terciary-color:#F6EEC9;
     --font:  "Comic Neue", system-ui;
 }
+
 body{
     background-color: var(--bg-color);
     color:var(--terciary-color);
@@ -12,6 +13,11 @@ body{
     height:100vh;
     margin: 0;
 }
+
+.grafico {
+    margin-top: 3rem;
+}
+
 header{
     background-color: var(--primary-color);
     text-align: center;
